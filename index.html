@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Efetobore Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script src="script.js"></script>
+
+<body>
+
+    <!-- Header -->
+    <header id="home">
+        <h1>Efetobore</h1>
+        <p>Future AI Engineer | Web Developer</p>
+    </header>
+
+
+    <!-- Navigation -->
+    <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+    <a href="#projects">Projects</a>
+</nav>
+
+<button id="theme-button" onclick="toggleTheme()">
+    Dark Mode
+</button>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- About Section -->
+        <section id="about">
+    <h2>About Me</h2>
+
+    <p>
+        I'm currently learning HTML, CSS, GitHub, AI Automation and Web Development.
+    </p>
+
+    <button onclick="toggleAbout()">Show More</button>
+
+    <div id="about-more" style="display: none;">
+        <p>
+            My goal is to become a professional web developer and AI engineer.
+            I am learning how to build websites, create useful applications,
+            and automate business tasks with technology.
+        </p>
+    </div>
+</section>
+
+
+        <!-- Skills Section -->
+        <section id="skills">
+
+            <h2>My Skills</h2>
+
+            <div class="skills-container">
+
+                <!-- Skill 1 -->
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>
+                        Building the structure of websites.
+                    </p>
+                </div>
+
+
+                <!-- Skill 2 -->
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>
+                        Designing and styling websites.
+                    </p>
+                </div>
+
+
+                <!-- Skill 3 -->
+                <div class="skill-card">
+                    <h3>Git & GitHub</h3>
+                    <p>
+                        Managing and storing my projects.
+                    </p>
+                </div>
+
+
+                <!-- Skill 4 -->
+                <div class="skill-card">
+                    <h3>AI Automation</h3>
+                    <p>
+                        Learning how to automate business tasks with AI.
+                    </p>
+                </div>
+
+
+                <!-- Skill 5 -->
+                <div class="skill-card">
+                    <h3>Problem Solving</h3>
+                    <p>
+                        Developing the ability to solve technical problems.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Projects Section -->
+        <section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-card">
+        <h3 id="project-title">Portfolio Website</h3>
+
+        <p id="project-description">
+            My first professional portfolio website built with HTML and CSS.
+        </p>
+
+        <button onclick="changeProject()">View Details</button>
+    </div>
+</section>
+
+
+        <!-- Contact Section -->
+    <section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>
+        Have a project or opportunity? Send me a message.
+    </p>
+
+    <form id="contact-form">
+
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <label for="message">Your Message</label>
+        <textarea id="message" placeholder="Write your message"></textarea>
+
+        <button type="submit">Send Message</button>
+
+        <p id="form-message"></p>
+
+    </form>
+
+</section>    
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Efetobore. All rights reserved.</p>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
